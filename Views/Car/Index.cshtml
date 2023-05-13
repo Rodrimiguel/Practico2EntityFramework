@@ -1,0 +1,86 @@
+@model IEnumerable<TerranovaCars.Models.Car>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>CARS</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Marca)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Modelo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Color)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Caja)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Combustible)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RuedaDeAuxilio)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Marca)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Modelo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Color)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Caja)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Combustible)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RuedaDeAuxilio)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon">
+        <title>Images</title>
+        <style>
+        body {
+            height: 100vh;
+            background-image: url("https://c0.wallpaperflare.com/preview/630/832/959/empty-white-concrete-pillared-parking-lot.jpg");
+             color:white;
+            padding: 10px;
+            background-position: auto;
+            background-size: cover ;
+            background-position: fixed;
+            background-repeat: no-repeat;
+        }
+    </style>
+    </head>
+</html>

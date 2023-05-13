@@ -18660,6 +18660,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Rodrigo\\Desktop\\TerranovaCars\\Views\\Car\\Delete.cshtml",
+      "TargetPath": "Views\\Car\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Rodrigo\\Desktop\\TerranovaCars\\Views\\Car\\Edit.cshtml",
+      "TargetPath": "Views\\Car\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Rodrigo\\Desktop\\TerranovaCars\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -18677,6 +18687,21 @@
     {
       "FilePath": "c:\\Users\\Rodrigo\\Desktop\\TerranovaCars\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Rodrigo\\Desktop\\TerranovaCars\\Views\\Car\\Details.cshtml",
+      "TargetPath": "Views\\Car\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Rodrigo\\Desktop\\TerranovaCars\\Views\\Car\\Create.cshtml",
+      "TargetPath": "Views\\Car\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Rodrigo\\Desktop\\TerranovaCars\\Views\\Car\\Index.cshtml",
+      "TargetPath": "Views\\Car\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

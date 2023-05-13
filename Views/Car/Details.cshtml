@@ -1,0 +1,75 @@
+@model TerranovaCars.Models.Car
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Car</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Marca)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Marca)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Modelo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Modelo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Color)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Color)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Caja)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Caja)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Combustible)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Combustible)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RuedaDeAuxilio)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RuedaDeAuxilio)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon">
+        <title>Images</title>
+        <style>
+        body {
+            height: 100vh;
+            background-image: url("https://static.cargurus.com/images/article/2018/03/06/16/48/5_tips_for_driving_in_the_dark-pic-202447880915044935-1600x1200.jpeg");
+             color:white;
+            padding: 10px;
+            background-position: auto;
+            background-size: cover ;
+            background-position: fixed;
+            background-repeat: no-repeat;
+        }
+    </style>
+    </head>
+</html>
